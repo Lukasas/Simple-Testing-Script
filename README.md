@@ -9,6 +9,11 @@ Edit script and set executable to application you would like to test.
 executable="app_to_test"
 ```
 
+Set test_output in script depending on if you want to test application's output or not
+```shell
+test_output="true/false"
+```
+
 Make script launchable:
 ```shell
 chmod +x ./test.sh
